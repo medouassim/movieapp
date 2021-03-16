@@ -124,3 +124,8 @@ main .movie .overview {
 main .movie:hover .overview {
   transform: translateY(0);
 }
+@media(max-width:600px) {
+  header input {
+    width: 8rem;
+  }
+}
